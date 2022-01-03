@@ -1,0 +1,61 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class KimSiYoung : MonoBehaviour
+{
+    // Start is called before the first frame update
+    void Start()
+    {
+        string a = "10";
+        int num1 = int.Parse(a);
+
+        string b = "20";
+        int num2 = int.Parse(b);
+
+        string c = "30";
+        int num3 = int.Parse(c);
+
+        //세개의 정수 중 최대값
+        if (num1 > num2 && num1 > num3)
+        {
+            Debug.Log($"{a} = 최대값");
+        }
+
+        if (num2 > num3 && num2 > num1)
+        {
+            Debug.Log($"{b} = 최대값");
+        }
+
+        if (num3 > num1 && num3 > num2)
+        {
+            Debug.Log($"{c} = 최대값");
+        }
+
+        //세개의 정수 중 최소값
+        if (num1 < num2 && num1 < num3)
+        {
+            Debug.Log($"{a} = 최소값");
+        }
+
+        if (num2 < num3 && num2 < num1)
+        {
+            Debug.Log($"{b} = 최소값");
+        }
+
+        if (num3 < num1 && num3 < num2)
+        {
+            Debug.Log($"{c} = 최소값");
+        }
+
+        //세개의 정수의 합계와 평균
+        Debug.Log($"{num1 + num2 + num3} = 합계");
+        Debug.Log($"{(num1 + num2 + num3)/3} = 평균");
+
+    }
+        void Update()
+    {
+
+
+    }
+}
