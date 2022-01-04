@@ -5,6 +5,11 @@ using UnityEngine;
 public class Chapter5_ex6 : MonoBehaviour
 {
     // Start is called before the first frame update
+    
+    //사용자에게 정수 2개와 기호
+    //(+,-,*,/,%)를 입력받아 결과값이 
+    //나오는 계산기를 만들어주세요.
+    
     void Start()
     {
 
