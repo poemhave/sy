@@ -5,6 +5,13 @@ using UnityEngine;
 public class KimSiYoung_ex7 : MonoBehaviour
 {
     // Start is called before the first frame update
+    
+    //문제2.
+    //각 월에 따른 한달간의 날짜 수를
+    //알려주는 프로그램을 만들어주세요.
+    //ex) 몇월이 궁금하세요? 7
+    //7월은 : 31일 까지 있습니다.
+    
     void Start()
     {
         string day = "2";
