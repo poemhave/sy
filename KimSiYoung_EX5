@@ -21,34 +21,40 @@ public class KimSiYoung_ex5 : MonoBehaviour
         int a = int.Parse(jam1);
         int b = int.Parse(jam2);
 
+        if (b >= 60 && b >= 0 && b < 101)
+        {
+            Debug.Log("1학년 : 합격☆");
+            Debug.Log("2학년 : 합격☆");
+            Debug.Log("3학년 : 합격☆");
+        }
+
+        else if (b < 60 && b >= 0 && b < 101)
+        {
+            Debug.Log("1학년 : 불합격");
+            Debug.Log("2학년 : 불합격");
+            Debug.Log("3학년 : 불합격");
+        }
+
+        else
+        {
+            Debug.Log("1학년 : 점수를 잘못 입력하셨습니다.");
+            Debug.Log("2학년 : 점수를 잘못 입력하셨습니다.");
+            Debug.Log("3학년 : 점수를 잘못 입력하셨습니다.");
+        }
+
         if (a >= 70 && a >= 0 && a < 101)
-        { 
+        {
             Debug.Log("4학년 : 합격☆");
         }
 
         else if (a < 70 && a >= 0 && a < 101)
         {
-                Debug.Log("4학년 : 불합격");
+            Debug.Log("4학년 : 불합격");
         }
 
         else
         {
             Debug.Log("4학년 : 점수를 잘못 입력하셨습니다.");
-        }
-
-        if (b >= 60 && b >= 0 && b < 101)
-        {
-            Debug.Log("그 이외학년 : 합격☆");
-        }
-
-        else if (b < 60 && b >= 0 && b < 101)
-        {
-            Debug.Log("그 이외학년 : 불합격");
-        }
-
-        else
-        {
-            Debug.Log("그 이외학년 : 점수를 잘못 입력하셨습니다.");
         }
     }
 
