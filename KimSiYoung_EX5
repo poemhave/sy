@@ -15,8 +15,8 @@ public class KimSiYoung_ex5 : MonoBehaviour
 
     void Start()
     {
-        string jam1 = "70";
-        string jam2 = "60";
+        string jam1 = "70"; //4학년
+        string jam2 = "60"; //1,2,3학년
 
         int a = int.Parse(jam1);
         int b = int.Parse(jam2);
